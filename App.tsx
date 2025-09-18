@@ -11,20 +11,20 @@ import ContactPage from './Contact_FINAL_VERSION'
 import TravLinStoriesPage from './TravLinStories_FINAL_VERSION'
 
  Import home page components
-import Header from '.componentsHeader'
-import Hero from '.componentsHero'
-import About from '.componentsAbout_WORKING'
-import OurValues from '.componentsOurValues'
-import SlidingImageSeparator from '.componentsSlidingImageSeparator'
-import WhatsTrending from '.componentsWhatsTrending'
-import Credentials from '.componentsCredentials'
-import Testimonials from '.componentsTestimonials'
-import TravelInsurance from '.componentsTravelInsurance'
-import TravelBlog from '.componentsTravelBlog'
-import AITravelPlannerWidgetExpanded from '.componentsAITravelPlannerWidgetExpanded'
-import ContactUs from '.componentsContactUs'
-import Footer from '.componentsFooter'
-import SEOHead from '.componentsSEOHead'
+import Header from './components/Header'
+import Hero from './components/Hero'
+import About from './components/About_WORKING'
+import OurValues from './components/OurValues'
+import SlidingImageSeparator from './components/SlidingImageSeparator'
+import WhatsTrending from './components/WhatsTrending'
+import Credentials from './components/Credentials'
+import Testimonials from './components/Testimonials'
+import TravelInsurance from './components/TravelInsurance'
+import TravelBlog from './components/TravelBlog'
+import AITravelPlannerWidgetExpanded from './components/AITravelPlannerWidgetExpanded'
+import ContactUs from './components/ContactUs'
+import Footer from './components/Footer'
+import SEOHead from './components/SEOHead'
 
 type PageType = 'home'  'about'  'cruises'  'travel-options'  'contact'  'stories'
 
@@ -481,4 +481,5 @@ export default function App() {
   )
 
 }
+
 
