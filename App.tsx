@@ -3,12 +3,12 @@ import { Toaster } from './components/ui/sonner'
 import { Button } from './components/ui/button'
 import { motion } from 'motion/react'
 
- Import all the separate page components
+// Import all the separate page components
 import AboutUsPage from './AboutUs_FINAL_VERSION'
-import CruisesPage from '.Cruises_FINAL_VERSION'
-import TravelOptionsPage from '.TravelOptions_FINAL_VERSION'
-import ContactPage from '.Contact_FINAL_VERSION'
-import TravLinStoriesPage from '.TravLinStories_FINAL_VERSION'
+import CruisesPage from './Cruises_FINAL_VERSION'
+import TravelOptionsPage from './TravelOptions_FINAL_VERSION'
+import ContactPage from './Contact_FINAL_VERSION'
+import TravLinStoriesPage from './TravLinStories_FINAL_VERSION'
 
  Import home page components
 import Header from '.componentsHeader'
@@ -481,3 +481,4 @@ export default function App() {
   )
 
 }
+
