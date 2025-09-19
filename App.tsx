@@ -1,27 +1,27 @@
-import React, { useState, useEffect } from 'react'
-import { Toaster } from './components/ui/sonner'
-import { Button } from './components/ui/button'
-import { motion } from 'motion/react'
+import React, { useState, useEffect } from 'react';
+import { Toaster } from './components/ui/sonner';
+import { Button } from './components/ui/button';
+import { motion } from 'motion/react';
 
 // Import all the separate page components
-import AboutUsPage from './AboutUs_FINAL_VERSION'
-import CruisesPage from './Cruises_FINAL_VERSION'
-import TravelOptionsPage from './TravelOptions_FINAL_VERSION'
-import ContactPage from './Contact_FINAL_VERSION'
-import TravLinStoriesPage from './TravLinStories_FIXED_FINAL'
+import AboutUsPage from './AboutUs_FINAL_VERSION';
+import CruisesPage from './Cruises_FINAL_VERSION';
+import TravelOptionsPage from './TravelOptions_FINAL_VERSION';
+import ContactPage from './Contact_FINAL_VERSION';
+import TravLinStoriesPage from './TravLinStories_FIXED_FINAL';
 
 // Import home page components
-import Header from './components/Header'
-import Hero from './components/Hero'
-import About from './components/About_WORKING'
-import OurValues from './components/OurValues'
-import SlidingImageSeparator from './components/SlidingImageSeparator'
-import WhatsTrending from './components/WhatsTrending'
-import Credentials from './components/Credentials'
-import Testimonials from './components/Testimonials'
-import TravelInsurance from './components/TravelInsurance'
-import TravelBlog from './components/TravelBlog'
-import AITravelPlannerWidgetExpanded from './components/AITravelPlannerWidgetExpanded'
+import Header from './components/Header';
+import Hero from './components/Hero';
+import About from './components/About_WORKING';
+import OurValues from './components/OurValues';
+import SlidingImageSeparator from './components/SlidingImageSeparator';
+import WhatsTrending from './components/WhatsTrending';
+import Credentials from './components/Credentials';
+import Testimonials from './components/Testimonials';
+import TravelInsurance from './components/TravelInsurance';
+import TravelBlog from './components/TravelBlog';
+import AITravelPlannerWidgetExpanded from './components/AITravelPlannerWidgetExpanded';
 import ContactUs from './components/ContactUs';
 import Footer from './components/Footer';
 import SEOHead from './components/SEOHead';
@@ -481,6 +481,7 @@ export default function App() {
   )
 
 }
+
 
 
 
