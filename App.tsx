@@ -26,7 +26,7 @@ import ContactUs from './components/ContactUs';
 import Footer from './components/Footer';
 import SEOHead from './components/SEOHead';
 
-type PageType = 'home'  'about'  'cruises'  'travel-options'  'contact'  'stories'
+type PageType = 'home' | 'about' | 'cruises' | 'travel-options' | 'contact' | 'stories'
 
 export default function App() {
   const [currentPage, setCurrentPage] = useStatePageType('home')
@@ -481,6 +481,7 @@ export default function App() {
   )
 
 }
+
 
 
 
