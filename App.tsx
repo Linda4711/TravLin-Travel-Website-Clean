@@ -51,10 +51,10 @@ const navigateWithTransition = (newPage: PageType, direction: 'forward' | 'backw
     console.log('🏠 Navigating to Home page')
     navigateWithTransition('home', 'backward')
   }
-  const navigateToAbout = () = {
+const navigateToAbout = () => {
     console.log('ℹ️ Navigating to About page')
     navigateWithTransition('about', 'forward')
-  }
+}
   const navigateToAboutServices = () = {
     console.log('🛎️ Navigating to About page - Our Services section')
     navigateWithTransition('about', 'forward')
@@ -482,6 +482,7 @@ const navigateWithTransition = (newPage: PageType, direction: 'forward' | 'backw
   )
 
 }
+
 
 
 
