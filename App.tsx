@@ -22,9 +22,9 @@ import Testimonials from './components/Testimonials'
 import TravelInsurance from './components/TravelInsurance'
 import TravelBlog from './components/TravelBlog'
 import AITravelPlannerWidgetExpanded from './components/AITravelPlannerWidgetExpanded'
-import ContactUs from './components/ContactUs'
-import Footer from './components/Footer'
-import SEOHead from './components/SEOHead'
+import ContactUs from './components/ContactUs';
+import Footer from './components/Footer';
+import SEOHead from './components/SEOHead';
 
 type PageType = 'home'  'about'  'cruises'  'travel-options'  'contact'  'stories'
 
@@ -481,6 +481,7 @@ export default function App() {
   )
 
 }
+
 
 
 
