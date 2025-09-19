@@ -34,7 +34,7 @@ export default function App() {
   const [isLoading, setIsLoading] = useState(false)
   const [pageDirection, setPageDirection] = useState<'forward' | 'backward'>('forward');
 
-   Smooth page transitions with loading states
+// Smooth page transitions with loading states
   const navigateWithTransition = (newPage PageType, direction 'forward'  'backward' = 'forward') = {
     setIsLoading(true)
     setPageDirection(direction)
@@ -482,6 +482,7 @@ export default function App() {
   )
 
 }
+
 
 
 
