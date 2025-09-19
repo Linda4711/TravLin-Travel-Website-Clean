@@ -36,15 +36,15 @@ const [pageDirection, setPageDirection] = useState<'forward' | 'backward'>('forw
 
 // Smooth page transitions with loading states
 const navigateWithTransition = (newPage: PageType, direction: 'forward' | 'backward' = 'forward') => {
-    setIsLoading(true)
-    setPageDirection(direction)
-    
-    setTimeout(() = {
-      setCurrentPage(newPage)
-      setIsLoading(false)
-      setTimeout(() = window.scrollTo({ top 0, behavior 'smooth' }), 50)
-    }, 300)
-  }
+  setIsLoading(true)
+  setPageDirection(direction)
+  
+  setTimeout(() => {
+    setCurrentPage(newPage)
+    setIsLoading(false)
+    setTimeout(() => window.scrollTo({ top: 0, behavior: 'smooth' }), 50)
+  }, 300)
+}
 
    Enhanced navigation handlers with improved UX
   const navigateToHome = () = {
@@ -482,6 +482,7 @@ const navigateWithTransition = (newPage: PageType, direction: 'forward' | 'backw
   )
 
 }
+
 
 
 
