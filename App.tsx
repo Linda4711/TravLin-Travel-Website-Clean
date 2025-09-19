@@ -31,11 +31,11 @@ type PageType = 'home' | 'about' | 'cruises' | 'travel-options' | 'contact' | 's
 
 export default function App() {
   const [currentPage, setCurrentPage] = useStatePageType('home')
-  const [isLoading, setIsLoading] = useState(false)
-  const [pageDirection, setPageDirection] = useState<'forward' | 'backward'>('forward');
+const [isLoading, setIsLoading] = useState(false);
+const [pageDirection, setPageDirection] = useState<'forward' | 'backward'>('forward');
 
 // Smooth page transitions with loading states
-  const navigateWithTransition = (newPage PageType, direction 'forward'  'backward' = 'forward') = {
+const navigateWithTransition = (newPage: PageType, direction: 'forward' | 'backward' = 'forward') => {
     setIsLoading(true)
     setPageDirection(direction)
     
@@ -482,6 +482,7 @@ export default function App() {
   )
 
 }
+
 
 
 
