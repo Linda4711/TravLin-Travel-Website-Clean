@@ -8,6 +8,7 @@ import AboutUsPage from './AboutUs_FINAL_VERSION';
 import CruisesPage from './Cruises_FINAL_VERSION';
 import TravelOptionsPage from './TravelOptions_FINAL_VERSION';
 import ContactPage from './Contact_FINAL_VERSION';
+// 🔥 ALL FIXED - BRAND COLORS + BETTER IMAGES + WORKING EMAILJS
 import TravLinStoriesPage from './TravLinStories_FIXED_FINAL';
 
 // Import home page components
@@ -481,6 +482,7 @@ export default function App() {
   )
 
 }
+
 
 
 
