@@ -44,10 +44,10 @@ const navigateWithTransition = (newPage: PageType, direction: 'forward' | 'backw
     setIsLoading(false);
     setTimeout(() => window.scrollTo({ top: 0, behavior: 'smooth' }), 50);
   }, 300);
-};
+  }
 
-   Enhanced navigation handlers with improved UX
-  const navigateToHome = () = {
+  // Enhanced navigation handlers with improved UX
+  const navigateToHome = () => {
     console.log('🏠 Navigating to Home page')
     navigateWithTransition('home', 'backward')
   }
@@ -482,6 +482,7 @@ const navigateWithTransition = (newPage: PageType, direction: 'forward' | 'backw
   )
 
 }
+
 
 
 
