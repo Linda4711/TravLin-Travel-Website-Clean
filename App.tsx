@@ -8,9 +8,9 @@ import AboutUsPage from './AboutUs_FINAL_VERSION'
 import CruisesPage from './Cruises_FINAL_VERSION'
 import TravelOptionsPage from './TravelOptions_FINAL_VERSION'
 import ContactPage from './Contact_FINAL_VERSION'
-import TravLinStoriesPage from './TravLinStories_FINAL_VERSION'
+import TravLinStoriesPage from './TravLinStories_FIXED_FINAL'
 
- Import home page components
+// Import home page components
 import Header from './components/Header'
 import Hero from './components/Hero'
 import About from './components/About_WORKING'
@@ -481,5 +481,6 @@ export default function App() {
   )
 
 }
+
 
 
